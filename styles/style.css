@@ -47,6 +47,13 @@ header {
 
 .nav-menu {
   margin-left: 20px;
+  display: flex;
+  margin-left: 20px;
+  
+}
+
+.text-style{
+  margin-left: 20px;
 }
 
 .nav-menu a {
@@ -62,6 +69,13 @@ header {
   font-size: 22px;
   font-weight: bold;
   font-family: 'DejaVu Sans';
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(168, 42, 42);
 }
 
 /* სკოლის სურათი */
