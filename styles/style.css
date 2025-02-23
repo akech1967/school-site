@@ -32,7 +32,7 @@ header {
 }
 
 .header-container__text {
-  font-family: 'ALK Life';
+  font-family: "ALK Life";
   font-weight: bold;
   font-size: 22px;
   color: rgb(168, 42, 42);
@@ -49,26 +49,29 @@ header {
   margin-left: 20px;
   display: flex;
   margin-left: 20px;
-  
 }
 
-.text-style{
+.text-style {
   margin-left: 20px;
 }
 
 .nav-menu a {
-  font-family: 'DejaVu Sans';
+  font-family: "DejaVu Sans";
   font-weight: 500;
   font-size: 18px;
   color: rgb(168, 42, 42);
   transition: all 0.3s ease-in-out;
 }
 
-.nav-menu a:hover {
-  /* transform: scale(1.1); */
-  font-size: 22px;
+.nav-menu a.active {
+  color: rgb(168, 42, 42) !important;
   font-weight: bold;
-  font-family: 'DejaVu Sans';
+}
+
+.nav-menu a:hover {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "DejaVu Sans";
 }
 
 .hamburger {
@@ -83,24 +86,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%; 
+  max-width: 100%;
   width: 100%;
   height: 400px;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
-  
 }
-.school-image
-  {
- max-width: 100%;
- width: 100%;
-    height: auto;
-    display: block;  
-    object-fit: cover;
-  
-  }
-
-
-                    
-
-
+.school-image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
