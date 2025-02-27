@@ -111,3 +111,20 @@ header {
   margin: 15px;
   font-size: 18px;
 }
+
+/* footer */
+.ul_footer {
+  display: flex;
+}
+
+.fa-brands {
+  font-size: 40px;
+  color: blue;
+  margin-left: 50px;
+}
+
+.avesome {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
