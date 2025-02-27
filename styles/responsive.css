@@ -19,7 +19,7 @@
     color: rgb(168, 42, 42);
   }
 
-  /* როცა მენიუ აქტიურია */
+  
   .nav-menu.active {
     display: flex;
     flex-direction: column;

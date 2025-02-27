@@ -1,24 +1,31 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".nav-menu");
-  
+
+  // document.addEventListener("DOMContentLoaded", function () {ეს საჭიროა თუ სცრიპტი თავში გიწერიაო ჩატჯპტ-მ
+    let hamburger = document.querySelector(".hamburger");
+    let navigation = document.querySelector(".nav-menu");
+
     hamburger.addEventListener("click", function () {
-      navMenu.classList.toggle("active");
+        navigation.classList.toggle("active");
+        hamburger.innerHTML = navigation.classList.contains("active")
+            ? '<i class="fas fa-times"></i>'
+            : '<i class="fa-solid fa-bars"></i>';
     });
-  });
+// }); ეს DOMContentLoaded - ს ფრჩხილია, იგივეა ქვემოთაც
+
+
+
   
 
-  document.addEventListener("DOMContentLoaded", function () {
-    const currentPage = window.location.pathname.split("/").pop(); // იღებს მიმდინარე ფაილის სახელს (მაგ., index.html)
+  
+    const currentPage = window.location.pathname.split("/").pop(); 
     const menuLinks = document.querySelectorAll(".nav-menu a");
   
     menuLinks.forEach(link => {
-      const linkPage = link.getAttribute("href").split("/").pop(); // იღებს მხოლოდ ფაილის სახელს ლინკიდან
+      const linkPage = link.getAttribute("href").split("/").pop(); 
       if (linkPage === currentPage) {
-        link.classList.add("active"); // ამატებს active კლასს სწორ ლინკს
+        link.classList.add("active"); 
       }
     });
-  });
+ 
   
   
 
