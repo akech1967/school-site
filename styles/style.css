@@ -99,3 +99,15 @@ header {
   display: block;
   object-fit: cover;
 }
+
+/* sakontaqto informacia */
+.text_contact {
+  margin: 20px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 22px;
+}
+.contact_form {
+  margin: 15px;
+  font-size: 18px;
+}
