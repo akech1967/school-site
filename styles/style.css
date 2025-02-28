@@ -135,7 +135,7 @@ header {
 
 .article-container {
   padding: 15px;
-  background-color: azure;
+  background-color:rgb(215, 215, 233);
 }
 
 .article-header {
@@ -162,13 +162,13 @@ header {
 }
 
 .sidebar {
-  width: 250px; /* sidebar-ის სიგანე */
+  width: 250px; 
   background: #f4f4f4;
   padding: 20px;
   font-family: "DejaVu Sans";
 }
 
-/* ძირითადი კონტენტი მარჯვნივ */
+
 .content {
   flex: 1;
   padding: 20px;
@@ -185,10 +185,40 @@ header {
 }
 
 .sidebar nav ul li a {
-  text-decoration: none;
+ 
   color: #333;
   font-weight: bold;
 }
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+}
+
+.dropdown-content li {
+  padding: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+}
+
 
 /* მისია ცსს */
 .article-content ul {
