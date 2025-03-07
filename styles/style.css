@@ -280,6 +280,7 @@ header {
   transform: translatey(-50%);
   right: 20px;
   font-size: 25px;
+  font-family: "ALK Life";
 
 }
 
@@ -297,6 +298,7 @@ header {
   font-size: 16px;
   height: 0;
   overflow: hidden;
+  font-family: "DejaVu Sans";
 }
 
 .line{
@@ -313,4 +315,11 @@ header {
 .acordion-container.active .acordion-title::before{
   content: " -";
   font-size: 25px;
+}
+
+.back {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "ALK Life";
 }
