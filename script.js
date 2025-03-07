@@ -1,4 +1,4 @@
-
+"use script"
   // document.addEventListener("DOMContentLoaded", function () {ეს საჭიროა თუ სცრიპტი თავში გიწერიაო ჩატჯპტ-მ
     let hamburger = document.querySelector(".hamburger");
     let navigation = document.querySelector(".nav-menu");
@@ -26,7 +26,14 @@
       }
     });
  
-  
+  // acordion
+
+  let acordion = document.querySelectorAll('.acordion-container');
+  acordion.forEach(item=>{
+    item.addEventListener('click', function(){
+      this.classList.toggle('active');
+    });
+  });
   
     
   
