@@ -48,7 +48,6 @@ header {
 .nav-menu {
   margin-left: 20px;
   display: flex;
-  margin-left: 20px;
 }
 
 .text-style {
@@ -135,7 +134,7 @@ header {
 
 .article-container {
   padding: 15px;
-  background-color:rgb(215, 215, 233);
+  background-color: rgb(215, 215, 233);
 }
 
 .article-header {
@@ -162,12 +161,11 @@ header {
 }
 
 .sidebar {
-  width: 250px; 
+  width: 250px;
   background: #f4f4f4;
   padding: 20px;
   font-family: "DejaVu Sans";
 }
-
 
 .content {
   flex: 1;
@@ -185,7 +183,6 @@ header {
 }
 
 .sidebar nav ul li a {
- 
   color: #333;
   font-weight: bold;
 }
@@ -210,7 +207,7 @@ header {
 }
 
 .dropdown-content a {
-    color: black;
+  color: black;
   display: block;
 }
 
@@ -218,7 +215,6 @@ header {
   display: block;
   opacity: 1;
 }
-
 
 /* მისია ცსს */
 .article-content ul {
@@ -239,13 +235,13 @@ header {
 
 /* acordion */
 
-.acordion{
+.acordion {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
 }
 
-.wraper-body{
+.wraper-body {
   background-color: #454242;
   max-width: 1000px;
   width: 100%;
@@ -253,27 +249,27 @@ header {
   border-radius: 20px;
 }
 
-.acordion-container{
+.acordion-container {
   max-width: 870px;
   width: 100%;
   margin: 0 auto;
 }
 
-.fontColor{
-  color: rgb(244,244,244)
+.fontColor {
+  color: rgb(244, 244, 244);
 }
 
-.fontSize{
+.fontSize {
   font-size: 20px;
 }
 
-.acordion-title{
+.acordion-title {
   position: relative;
   padding: 30px 0;
   cursor: pointer;
 }
 
-.acordion-title::before{
+.acordion-title::before {
   content: " +";
   position: absolute;
   top: 50%;
@@ -281,19 +277,18 @@ header {
   right: 20px;
   font-size: 25px;
   font-family: "ALK Life";
-
 }
 
-.acordion h2{
+.acordion h2 {
   font-size: 27px;
   padding-top: 80px;
 }
 
-.last{
+.last {
   padding-bottom: 80px;
 }
 
-.acordion-description{
+.acordion-description {
   width: 100%;
   font-size: 16px;
   height: 0;
@@ -301,18 +296,18 @@ header {
   font-family: "DejaVu Sans";
 }
 
-.line{
+.line {
   width: 100%;
   height: 0.7px;
   background-color: #a8a4a4;
 }
 
-.acordion-container.active .acordion-description{
+.acordion-container.active .acordion-description {
   height: 200px;
   padding: 10px;
 }
 
-.acordion-container.active .acordion-title::before{
+.acordion-container.active .acordion-title::before {
   content: " -";
   font-size: 25px;
 }
@@ -322,4 +317,32 @@ header {
   font-size: 18px;
   font-weight: 600;
   font-family: "ALK Life";
+}
+
+/* fetch */
+.container {
+  max-width: 100%;
+  width: 100%;
+  background-color: rgb(215, 215, 233);
+  display: flex;
+  justify-content: center;
+}
+
+#ul_list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.administracia {
+  padding: 20px;
+  background-color: rgb(215, 215, 233);
+  text-align: center;
+  font-family: "DejaVu Sans";
+  font-weight: 600;
+  font-size: 22px;
 }
