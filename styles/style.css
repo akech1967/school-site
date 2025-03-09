@@ -326,6 +326,8 @@ header {
   background-color: rgb(215, 215, 233);
   display: flex;
   justify-content: center;
+  padding: 20px 0 10px;
+
 }
 
 #ul_list {
@@ -346,3 +348,12 @@ header {
   font-weight: 600;
   font-size: 22px;
 }
+
+#loadprev, #loadnext {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 20px;
+  
+}
+
+
