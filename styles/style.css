@@ -326,7 +326,7 @@ header {
   background-color: rgb(215, 215, 233);
   display: flex;
   justify-content: center;
-  /* padding: 20px 0 10px 0; */
+  
 
 }
 
@@ -356,4 +356,47 @@ header {
   
 }
 
+/* slider */
 
+#slider {
+  width: 70%;
+  height: 85vh;
+  position: relative;
+  margin: 0 auto;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to right, #f72222, #5f3512);
+  border-radius: 20%;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  z-index: 2;
+}
+.arrow-left {
+  left: 200px
+}
+.arrow-right {
+  right: 200px;
+}
+.arrow:hover {
+  border: 2px solid white;
+ 
+} 
+.slider-title {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  /* transform: translate(-50%, -50%); */
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  color: rgb(189, 163, 163);
+  padding: 20px 70px;
+  text-align: center;
+}
