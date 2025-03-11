@@ -71,8 +71,7 @@
 // setSlider();
 
 
-// აქედან
-// 
+
 
 
 let data = [
@@ -179,11 +178,11 @@ let data = [
       setSlider();
   }
   
-  // Event Listeners for arrow clicks
+  
   arrowLeft.addEventListener('click', arrowLeftClick);
   arrowRight.addEventListener('click', arrowRightClick);
   
-  // Keyboard navigation (left and right arrow keys)
+  
   document.addEventListener('keydown', function (event) {
       if (event.keyCode == 37) {
           arrowLeftClick();
@@ -192,7 +191,7 @@ let data = [
       }
   });
   
-  // Auto slide every 4 seconds
+  
   setInterval(() => {
       arrowRightClick();
   }, 4000);
