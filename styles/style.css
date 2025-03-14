@@ -121,18 +121,30 @@ header {
 /* footer */
 .ul_footer {
   display: flex;
+  
 }
 
-.fa-brands {
+.fa-facebook {
   font-size: 40px;
   color: blue;
   margin-left: 50px;
+  
+}
+
+.fa-square-youtube {
+  font-size: 40px;
+  color: red;
+  margin-left: 50px;
+  
 }
 
 .avesome {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #c9c6c6;
+  
 }
 
 /* about */
