@@ -56,13 +56,13 @@ header {
 }
 
 .text-style {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .nav-menu a {
   font-family: "DejaVu Sans";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(168, 42, 42);
 
   transition: all 0.3s ease-in-out;
@@ -376,9 +376,14 @@ header {
 }
 
 #loadprev, #loadnext {
-  font-size: 18px;
-  font-weight: 500;
-  margin: 10px;
+  font-family: "DejaVu Sans";
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(16, 15, 15);
+  margin: 20px;
+  border: none;
+  border-radius:10px;
+  background-color:white;
   
 }
 
@@ -454,6 +459,7 @@ header {
 
 }
 
+/* registration */
 
 .errorText{
   color: red;
@@ -465,8 +471,20 @@ header {
   font-size: 20px;
 }
 
-.registration_wrapper{
+.registration_wrapper{ 
   padding: 20px;
   background-color: rgb(215, 215, 233);
   
 }
+
+#username, #password, #password2{
+  margin:0 0 15px ;
+  border-radius: 10px;
+  border: none;
+  height: 25px;
+}
+#chekAgree{
+  margin: 15px 0 15px;
+  
+}
+

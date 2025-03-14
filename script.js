@@ -53,14 +53,28 @@ function getUsers(page) {
       totalPages = responseData.total_pages;
       console.log(responseData);
 
+      
       responseData.data.forEach(function (item) {
-        let li = document.createElement("li");
-        li.textContent = item.email;
+        let container = document.createElement("div"); 
+        container.style.textAlign = "center"; 
+        
         let image = document.createElement("img");
         image.src = item.avatar;
-        fragment.appendChild(li);
-        fragment.appendChild(image);
-      });
+        image.style.display = "block"; 
+        image.style.margin = "0 auto"; 
+        image.style.width = "150px"; 
+        image.style.height = "150px"; 
+        
+        let li = document.createElement("li");
+        li.textContent = item.email;
+        li.style.listStyle = "none"; 
+    
+        container.appendChild(image); 
+        container.appendChild(li); 
+    
+        fragment.appendChild(container); 
+    });
+    
 
       document.getElementById("ul_list").innerHTML = " ";
       document.getElementById("ul_list").appendChild(fragment);
@@ -92,6 +106,5 @@ document.getElementById("loadnext").addEventListener("click", function () {
 });
 
 getUsers(currentPage);
-
 
 
