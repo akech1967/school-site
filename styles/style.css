@@ -108,13 +108,14 @@ header {
 
 /* sakontaqto informacia */
 .text_contact {
-  margin: 20px;
+  padding: 20px;
   text-align: left;
   font-weight: 600;
   font-size: 22px;
 }
 .contact_form {
-  margin: 15px;
+  padding-top: 15px; 
+  padding-left: 10px;
   font-size: 18px;
 }
 
@@ -486,5 +487,17 @@ header {
 #chekAgree{
   margin: 15px 0 15px;
   
+}
+
+#map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(215, 215, 233);
+  padding: 10px;
+}
+
+#contact{
+  background-color: rgb(215, 215, 233);
 }
 
