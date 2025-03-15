@@ -125,6 +125,19 @@ header {
   
 }
 
+.footer_text {
+  font-family: "DejaVu Sans";
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(168, 42, 42);
+  margin-bottom: 5px;
+
+  }
+
+  .footer_text:first-of-type {
+    margin-top: 15px;
+}
+
 .fa-facebook {
   font-size: 40px;
   color: blue;
@@ -134,17 +147,18 @@ header {
 
 .fa-square-youtube {
   font-size: 40px;
-  color: red;
+  color: rgb(168, 42, 42);;
   margin-left: 50px;
   
 }
 
 .avesome {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #c9c6c6;
+  background-color: #aec1d5;
+  align-items: center;
   
 }
 
