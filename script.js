@@ -88,7 +88,7 @@ function getUsers(page) {
 }
 
 document.getElementById("loadprev").addEventListener("click", function () {
-  if (currentPage == 1) {
+  if (currentPage === 1) {
     return;
   }
 
@@ -97,8 +97,21 @@ document.getElementById("loadprev").addEventListener("click", function () {
   
 });
 
+// let loadPrev = document.getElementById("loadprev");
+
+// if (loadPrev) {
+//   loadPrev.addEventListener("click", function () {
+//     if (currentPage === 1) {
+//       return;
+//     }
+//     currentPage -= 1;
+//     getUsers(currentPage);
+//   });
+// }
+
+
 document.getElementById("loadnext").addEventListener("click", function () {
-  if (currentPage == totalPages) {
+  if (currentPage === totalPages) {
     return;
   }
   currentPage += 1;
@@ -106,5 +119,18 @@ document.getElementById("loadnext").addEventListener("click", function () {
 });
 
 getUsers(currentPage);
+
+// let loadNext = document.getElementById("loadnext");
+
+// if (loadNext) {
+//   loadNext.addEventListener("click", function () {
+//     if (currentPage === totalPages) {
+//       return;
+//     }
+//     currentPage += 1;
+//     getUsers(currentPage);
+//   });
+// }
+
 
 
