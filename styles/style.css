@@ -162,10 +162,10 @@ header {
   align-items: center;
   padding: 20px 0;
   background-color: #8ba8c7;
-  border-top: 4px solid #6a8aa0; /* ხაზის დამატება ფუტერის ზემოთ */
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* მსუბუქი ჩრდილის დამატება */
-  font-family: 'Arial', sans-serif; /* თანამედროვე ფონტის გამოყენება */
-  color: #ffffff; /* თეთრი ტექსტის ფერი */
+  border-top: 4px solid #6a8aa0; 
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif; 
+  color: #ffffff; 
 }
 
 
@@ -205,6 +205,7 @@ header {
   background: #f4f4f4;
   padding: 20px;
   font-family: "DejaVu Sans";
+  
 }
 
 .content {
@@ -225,6 +226,7 @@ header {
 .sidebar nav ul li a {
   color: #333;
   font-weight: bold;
+  font-size: 16px;
 }
 
 .sidebar nav ul li a:hover {
@@ -412,9 +414,10 @@ header {
 
 #slider {
   width: 70%;
+  max-width: 900px;
   height: 500px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #f3f3f3;
   margin: 0 auto;
 }
@@ -424,21 +427,22 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(168, 42, 42, 0.5);
   color: white;
   border: none;
   padding: 10px;
   font-size: 20px;
   cursor: pointer;
-  z-index: 10;
+  z-index: 999;
+ 
 }
 
 #arrow-left {
-  left: 50px;
+  left: 220px;
 }
 
 #arrow-right {
-  right: 50px;
+  right: 220px;
 }
 
 .dots {
