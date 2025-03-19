@@ -43,4 +43,11 @@
   #slider {
     height: 55vh;
   }
+  .div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
+
