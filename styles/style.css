@@ -408,6 +408,7 @@ header {
   border: none;
   border-radius: 10px;
   background-color: white;
+  cursor: pointer;
 }
 
 /* slider */
@@ -594,3 +595,4 @@ header {
 .school-container.vertical {
   flex-direction: column;
 }
+
