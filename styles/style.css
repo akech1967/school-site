@@ -612,11 +612,7 @@ header {
   height: 40px;
   width: 50px;
 }
-.line{
-  width: 3px;
-  height: 40px;
-  background-color: blue;
-}
+
 
 .video{
   padding: 15px;
