@@ -122,6 +122,8 @@ header {
 /* footer */
 .ul_footer {
   display: flex;
+  align-items: center;
+  
 }
 
 .footer_text {
@@ -596,3 +598,45 @@ header {
   flex-direction: column;
 }
 
+#submit{
+  padding: 7px;
+  border-radius: 3px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 50px;
+}
+.line{
+  width: 3px;
+  height: 40px;
+  background-color: blue;
+}
+
+.video{
+  padding: 15px;
+  background-color: rgb(215, 215, 233);
+  float: right;
+  margin-left: 15px;
+  
+}
+.clearfix{
+  background-color: rgb(215, 215, 233);
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.video-text{
+  font-family: "DejaVu Sans"; 
+  padding-left: 20px;
+  text-align: justify;
+  font-size: 18px;
+}
